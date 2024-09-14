@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .perspective {
+    perspective: 7rem;
+  }
+}
+.section {
+  @apply min-h-screen w-full;
+}
+/* Typewriter.css */
+
+.typewriter-text {
+  background-image: linear-gradient(to right, black, darkgray);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
