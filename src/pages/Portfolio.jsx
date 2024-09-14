@@ -76,12 +76,16 @@ const Portfolio = () => {
                   <div className="flex justify-center gap-x-4 lg:gap-x-9 my-5">
                     <Link
                       to={project.githubLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="flex gap-2 items-center font-semibold"
                     >
                       Code <img src={github} alt="" className="w-7 h-7" />
                     </Link>
                     <Link
                       to={project.hostedLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="flex gap-2 items-center font-semibold"
                     >
                       Demo <img src={link} alt="" className="w-7 h-7" />
